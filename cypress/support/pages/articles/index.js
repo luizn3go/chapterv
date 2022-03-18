@@ -18,9 +18,13 @@ class Articles {
     cy.contains('button', 'Publish Article').click()
   }
 
+  goToGlobalFeed () {
+    cy.get()
+  }
+
   verifyArticleCreation () {
     cy.contains(articleName).should('be.visible')
-    cy.get('h1').should('have.text', articleName)
+    // cy.get('h1').should('have.text', articleName)
   }
 }
 

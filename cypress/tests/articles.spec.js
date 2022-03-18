@@ -13,6 +13,10 @@ describe('Articles', () => {
     articles.accessForm()
     articles.fillOutForm()
     articles.submitForm()
+
+    cy.get('[show-authed="true"] > :nth-child(1) > .nav-link').click()
+    cy.get('.feed-toggle > .nav > :nth-child(2) > .nav-link').click()
+
     articles.verifyArticleCreation()
   })
 })
