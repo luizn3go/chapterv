@@ -1,0 +1,5 @@
+{
+    "$schema": "https://on.cypres.io/cypress.schema.json",
+    "integrationFolder": "cypress/tests",
+    "baseUrl": "https://demo.realworld.io/#/"
+}
